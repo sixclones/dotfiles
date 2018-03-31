@@ -85,6 +85,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+export EDITOR=/usr/bin/vim
+export VISUAL=/usr/bin/vim
+export GIT_EDITOR=vim
+
 export MONGO_PATH=/usr/local/mongodb
 export PATH=$PATH:$MONGO_PATH/bin
 
