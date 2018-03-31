@@ -87,3 +87,13 @@ source $ZSH/oh-my-zsh.sh
 
 export MONGO_PATH=/usr/local/mongodb
 export PATH=$PATH:$MONGO_PATH/bin
+
+# Personal functions
+doc() {
+  if [ $2 ];then
+    echo $2 >> $HOME/.dotfiles/docs/$1.md
+  else
+    vim $HOME/.dotfiles/docs/$1.md
+  fi
+}
+
