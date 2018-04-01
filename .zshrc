@@ -102,12 +102,8 @@ doc() {
 }
 
 sdf() {
-  # git --git-dir=$HOME/.dotfiles/.git add .
-  # git --git-dir=$HOME/.dotfiles/.git commit -m $1 
-  # git --git-dir=$HOME/.dotfiles/.git push 
-
   ( cd ~/.dotfiles ;
   gaa ; 
-  gcmsg $1
-  )
+  gcmsg $1 ;
+  gp )
 }
