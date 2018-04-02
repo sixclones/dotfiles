@@ -1,7 +1,10 @@
+# Vim
+
 :q!
 Quitter sans enregister. 
 
-x Effacer sous le curseur.
+x
+Effacer sous le curseur.
 
 A
 Ajouter du texte à la fin de la ligne.

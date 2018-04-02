@@ -94,10 +94,15 @@ export PATH=$PATH:$MONGO_PATH/bin
 
 # Personal functions
 doc() {
-  if [ $2 ];then
-    echo $2 >> $HOME/.dotfiles/docs/$1.md
+  if [[ $1 == "list" ]]; then
+    ( cd ~/.dotfiles/docs ;
+    ls -l )
   else
-    vim $HOME/.dotfiles/docs/$1.md
+    if [ $2 ];then
+      echo "\n"$2 >> $HOME/.dotfiles/docs/$1.md
+    else
+      vim $HOME/.dotfiles/docs/$1.md
+    fi
   fi
 }
 
