@@ -1,159 +1,159 @@
 # Vim
 
-:q!
+## :q!
 Quitter sans enregister. 
 
-x
+## x
 Effacer sous le curseur.
 
-A
+## A
 Ajouter du texte à la fin de la ligne.
 
-:wq
+## :wq
 Enregistrer un fichier et sortir.
 
-dw
+## dw
 Delete word.
 
-d$
+## d$
 Supprime jusqu'à la fin de la ligne.
 
-de
+## de
 Supprime jusqu'à la fin du mot.
 
-$
+## $
 Aller à la fin de la ligne.
 
-0
+## 0
 Aller au début de la ligne.
  
-:w
+## :w
 Write.
 
-w
+## w
 Word.
 
-e
+## e
 End.
 
-dd
+## dd
 Supprime la ligne.
 
-u
+## u
 Annuler les dernières commandes.
 
-U
+## U
 Récupérer toute une ligne.
 
-Ctrl + r
+## Ctrl + r
 Annuler les annulations.
 
-p
+## p
 Placer ce qui vient d'être effacé.
 
-r
+## r
 Remplacer le caractère qui est sous le curseur par le caractère pressé ensuite.
 
-ce
+## ce
 Remplace la fin d'un mot.
 
-c
+## c
 Change.
 
-Ctrl + g
+## Ctrl + g
 Affiche la position
 
-G
+## G
 Se déplacer à la fin du fichier.
 
-gg
+## gg
 Se déplacer au début du fichier.
 
-6G
-Amène à la ligne 0.
+## 6G
+Amène à la ligne 6.
 
-/
+## /
 Recherche.
 
-n
+## n
 Chercher les autres occurences de la recherche.
 
-N
+## N
 Chercher les autres occurences de la recherce à l'envers.
 
-?
+## ?
 Recherche inversée.
 
-%
+## %
 Retrouver la parenthèse, le crochet ou l'accolade correspondante à celle ouvrante ciblée par le curseur.
 
-:s/old/new/g
+## :s/old/new/g
 Remplace les occurences par la nouvelle chaîne de caractères.
 /g permet de remplacer globalement sur la ligne.
 
-:5,10s/old/new/g
+## :5,10s/old/new/g
 Remplace les occurences entre la ligne 5 et 10.
 
-:%s/old/new/g
+## :%s/old/new/g
 Remplace toutes les occurences du fichier.
 
-:%s/ancien/new/gc
+## :%s/ancien/new/gc
 Demande confirmation de la modification des occurences.
 
-:!
+## :!
 Exécuter une commande externe.
 
-o
+## o
 Ajoute une nouvelle ligne en dessous passe en mode insertion.
 
-O
+## O
 Ajouter une nouvelle ligne au dessus et passe en mode insertion.
 
-v
+## v
 Mode visual.
 
-:r
+## :r
 Replace.
 Un fichier, une commande etc.
 
-a
+## a
 Insérer du texte après le curseur.
 
-R
+## R
 Remplacement.
 
-<<
+## <<
 Enlever une tabulation à la ligne.
 
->>
+## >>
 Ajouter une tabulation à la ligne.
 
-==
+## ==
 Indente automatiquement la ligne.
 
-Ctrl + o
+## Ctrl + o
 Intéromps le mode insertion le temps d'une commande.
 
-\c
+## \c
 Ignore la casse dans une recherche.
 
-:set ic
+## :set ic
 Ignorer la casse dans la recherche.
 
-:set hlsearch
+## :set hlsearch
 Ajoute de la surbrillance aux résultats de la recherche.
 
-:set incsearch
+## :set incsearch
 Recherche pendant la saisie de texte.
 
-y
+## y
 Copier.
 
-p
+## p
 Colle.
 
-P
+## P
 Colle au-dessus.
 
-I
+## I
 Place le curseur au début de la ligne en mode insertion.
