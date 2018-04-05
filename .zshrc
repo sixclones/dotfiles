@@ -112,3 +112,5 @@ sdf() {
   gcmsg $1 ;
   gp )
 }
+
+test
