@@ -112,3 +112,8 @@ sdf() {
   gcmsg $1 ;
   gp )
 }
+
+h() {
+	cd
+	clear
+}
