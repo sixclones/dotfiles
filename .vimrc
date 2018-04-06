@@ -6,6 +6,12 @@ set fileencoding=utf-8
 syntax enable
 set showmatch
 
+set tabstop=2
+set softtabstop=0
+set shiftwidth=2
+set autoindent
+set expandtab
+
 set incsearch
 set ignorecase
 
