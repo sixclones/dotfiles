@@ -6,11 +6,15 @@ set fileencoding=utf-8
 syntax enable
 set showmatch
 
+filetype indent plugin on
+syntax on
 set tabstop=2
 set softtabstop=0
 set shiftwidth=2
 set autoindent
 set expandtab
+set shiftround
+set smarttab
 
 set incsearch
 set ignorecase
