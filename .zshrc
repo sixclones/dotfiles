@@ -91,9 +91,9 @@ source $ZSH/oh-my-zsh.sh
 # Variables
 # ---------
 
-export EDITOR=/usr/bin/vim
-export VISUAL=/usr/bin/vim
-export GIT_EDITOR=vim
+export EDITOR='nvim'
+export VISUAL='nvim'
+export GIT_EDITOR=nvim
 
 export MONGO_PATH=/usr/local/mongodb
 export PATH=$PATH:$MONGO_PATH/bin

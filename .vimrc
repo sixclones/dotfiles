@@ -1,9 +1,25 @@
 set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'chriskempson/base16-vim'
+Plugin 'arcticicestudio/nord-vim'
+Plugin 'aereal/vim-colors-japanesque'
+Plugin 'rakr/vim-one'
+
+call vundle#end()
 
 set encoding=utf-8
 set fileencoding=utf-8
 
 syntax enable
+" colorscheme base16-default-dark
+" colorscheme nord
+colorscheme japanesque
+" let g:airline_theme='one'
 
 filetype indent plugin on
 syntax on
