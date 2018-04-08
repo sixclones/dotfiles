@@ -178,3 +178,9 @@ Bouge la ligne actuel de ± #.
 
 ## :{range}norm {command}
 Exécute une {command} sur chaque ligne de la {range}.
+
+## *
+Recherche le mot actuel.
+
+## #
+Recherche le mot actuel, en arrière.
