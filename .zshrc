@@ -111,11 +111,10 @@ sdf() {
     ( cd ~/.dotfiles ;
     git pull )
   else
-    echo push
-#    ( cd ~/.dotfiles ;
-#      gaa ; 
-#    gcmsg $1 ;
-#    gp )
+    ( cd ~/.dotfiles ;
+      gaa ; 
+    gcmsg $1 ;
+    gp )
   fi
 }
 
