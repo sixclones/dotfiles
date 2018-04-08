@@ -145,3 +145,7 @@ h() {
 	cd
 	clear
 }
+
+cfgv() {
+  vim ~/.dotfiles/.vimrc
+}
