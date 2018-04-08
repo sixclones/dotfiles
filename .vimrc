@@ -52,3 +52,8 @@ nmap <C-L><C-L> :set rnu!<CR>
 "
 " set showmatch
 " Surligne les parenthèses correspondantes
+
+set clipboard=unnamed
+" if has("unnamedplus")
+"   set clipboard+=unnamedplus
+" endif
