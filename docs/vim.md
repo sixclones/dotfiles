@@ -157,3 +157,24 @@ Colle au-dessus.
 
 ## I
 Place le curseur au début de la ligne en mode insertion.
+
+## :m #
+Bouge la ligne actuelle après la ligne #.
+
+## :m 0
+Bouge la ligne actuelle avant la première ligne.
+
+## :m $
+Bouge la ligne actuelle après la dernière ligne.
+
+## :#,$m *
+Bouge les lignes # à $ à la ligne \*.
+
+## :,+#m$
+Bouge les # lignes à partir de la ligne actuelle jusqu'à la ligne $.
+
+## :m ±#
+Bouge la ligne actuel de ± #.
+
+## :{range}norm {command}
+Exécute une {command} sur chaque ligne de la {range}.

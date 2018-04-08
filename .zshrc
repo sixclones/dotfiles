@@ -107,10 +107,16 @@ doc() {
 }
 
 sdf() {
-  ( cd ~/.dotfiles ;
-  gaa ; 
-  gcmsg $1 ;
-  gp )
+  if [[ $1 == "d" ]]; then
+    ( cd ~/.dotfiles ;
+    git pull )
+  else
+    echo push
+#    ( cd ~/.dotfiles ;
+#      gaa ; 
+#    gcmsg $1 ;
+#    gp )
+  fi
 }
 
 h() {
