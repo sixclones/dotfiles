@@ -85,6 +85,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+
+
+# ---------
+# Variables
+# ---------
+
 export EDITOR=/usr/bin/vim
 export VISUAL=/usr/bin/vim
 export GIT_EDITOR=vim
@@ -92,7 +98,24 @@ export GIT_EDITOR=vim
 export MONGO_PATH=/usr/local/mongodb
 export PATH=$PATH:$MONGO_PATH/bin
 
+
+
+# -------
+# Aliases
+# ------- 
+
+alias v=vim
+
+if command -v nvim &> /dev/null; then
+  alias vim=nvim # Use `\vim` or `command vim` to get the original vim.
+fi
+
+
+
+# ------------------
 # Personal functions
+# ------------------
+
 doc() {
   if [[ $1 == "list" ]]; then
     ( cd ~/.dotfiles/docs ;
@@ -122,3 +145,4 @@ h() {
 	cd
 	clear
 }
+
