@@ -35,3 +35,5 @@ map <Left> <Nop>
 imap <Left> <Nop>
 map <Right> <Nop>
 imap <Right> <Nop>
+
+nmap <C-L><C-L> :set rnu!<CR>
