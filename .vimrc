@@ -44,6 +44,10 @@ set number
 set relativenumber
 set scrolloff=5
 
+set clipboard=unnamed
+
+set mouse=a
+
 map <Up> <Nop>
 imap <Up> <Nop>
 map <Down> <Nop>
@@ -66,7 +70,3 @@ nmap <C-L><C-L> :set rnu!<CR>
 "
 " set cursorline
 "
-set clipboard=unnamed
-" if has("unnamedplus")
-"   set clipboard+=unnamedplus
-" endif
