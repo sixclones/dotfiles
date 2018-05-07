@@ -64,7 +64,7 @@ nmap <C-L><C-L> :set rnu!<CR>
 " ---------
 "
 " set colorcolumn=10
-"
+
 " set hidden
 " Cache les buffers > ouvrir un nouveau fichier sans avoir sauvegardé
 "
