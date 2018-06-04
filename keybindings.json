@@ -1,4 +1,4 @@
-// Empty
+// Placez vos combinaisons de touches dans ce fichier pour remplacer les valeurs par défaut
 [
 	{
 		"key": "ctrl+[Quote]",
@@ -25,89 +25,11 @@
 		"when": "editorTextFocus && !editorReadonly"
 	},
 	{
-		"key": "ctrl+alt+c",
-		"command": "multiclip.copyMerge",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "ctrl+shift+c",
-		"command": "-multiclip.copyMerge",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "ctrl+alt+x",
-		"command": "multiclip.cutMerge",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "ctrl+shift+x",
-		"command": "-multiclip.cutMerge",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "ctrl+alt+v",
-		"command": "multiclip.paste",
-		"when": "editorTextFocus && editorLangId != 'markdown'"
-	},
-	{
-		"key": "ctrl+shift+v",
-		"command": "-multiclip.paste",
-		"when": "editorTextFocus && editorLangId != 'markdown'"
-	},
-	{
-		"key": "ctrl+shift+v",
-		"command": "multiclip.list",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "ctrl+alt+v",
-		"command": "-multiclip.list",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "ctrl+shift+alt+x",
-		"command": "multiclip.clearBuffer"
-	},
-	{
-		"key": "ctrl+shift+d",
-		"command": "-extension.deleteAllLogStatements"
-	},
-	{
-		"key": "ctrl+k ctrl+d",
-		"command": "-editor.action.moveSelectionToNextFindMatch",
-		"when": "editorFocus"
-	},
-	{
 		"key": "ctrl+alt+d",
 		"command": "docthis.documentThis"
 	},
 	{
 		"key": "ctrl+alt+d ctrl+alt+d",
 		"command": "-docthis.documentThis"
-	},
-	{
-		"key": "ctrl+alt+k",
-		"command": "-rest-client.cancel-request",
-		"when": "editorTextFocus && editorLangId == 'http'"
-	},
-	{
-		"key": "ctrl+alt+k",
-		"command": "-rest-client.cancel-request",
-		"when": "editorTextFocus && editorLangId == 'plaintext'"
-	},
-	{
-		"key": "ctrl+alt+l",
-		"command": "-rest-client.rerun-last-request",
-		"when": "editorTextFocus && editorLangId == 'plaintext'"
-	},
-	{
-		"key": "ctrl+alt+l",
-		"command": "-rest-client.rerun-last-request",
-		"when": "editorTextFocus && editorLangId == 'http'"
-	},
-	{
-		"key": "ctrl+alt+l",
-		"command": "-rest-client.rerun-last-request",
-		"when": "resourceScheme == 'rest-response'"
 	}
 ]
