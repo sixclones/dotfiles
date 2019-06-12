@@ -52,7 +52,7 @@ ENABLE_CORRECTION="true"
 # ~/.oh-my-zsh/custom/plugins/ Example format: plugins=(rails git 
 # textmate ruby lighthouse) Add wisely, as too many plugins slow down 
 # shell startup.
-plugins=(git sudo jsontools lol npm nyan osx wd)
+plugins=(git sudo jsontools lol npm osx wd)
 
 source $ZSH/oh-my-zsh.sh
 
