@@ -14,5 +14,5 @@ sh ./setup.sh
 
 ## Acknowledgements
 
-[Colin Peyrat](https://github/ColinPeyrat)\
+[Colin Peyrat](https://github.com/ColinPeyrat)\
 [Internets](https://duckduckgo.com)
